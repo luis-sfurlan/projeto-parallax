@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.8em;
+}
+
+body {
+    min-height: 100vh;
+}
+
+div.img1 {
+    position: relative;
+    height: 100vh;
+    background: black url('../imagens/imagem1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    opacity: 0.7;
+}
+
+div.img1 > h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgb(17, 17, 17);
+    color: white; 
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.589);
+    padding: 20px;
+    transform: translate(-50%, -50%);
+}
+
+section.branco {
+    text-align: center;
+    color: rgb(102, 102, 102);
+    padding: 50px 80px;
+}
+
+section.branco > h2 {
+    padding-bottom: 10px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.39);
+}
+
+div.img2 {
+    position: relative;
+    background: black url('../imagens/imagem2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 400px;
+}
+
+div.img2 > h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    transform: translate(-50%, -50%);
+}
+
+section.preto {
+    text-align: center;
+    color: #dddddd;
+    padding: 50px 80px;
+    background-color: #282e34;
+}
+
+section.preto > h2 {
+    padding-bottom: 10px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.39);
+}
+
+div.img3 {
+    position: relative;
+    background: black url('../imagens/imagem3.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 400px;
+}
+
+div.img3 > h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #282e34;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+div.img4 {
+    position: relative;
+    background: black url('../imagens/imagem4.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 400px;
+}
+
+div.img4 > h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+div.img1 > p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.404);
+    padding: 20px;
+    background-color: #111111;
+    transform: translate(-50%, -50%);
+}
+
+footer > p {
+    background-color: #282e34;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.397);
+}
+
+footer > p > a {
+    color: white;
+    text-decoration: none;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 1200px) {
+
+    section.branco > h2 {
+        font-size: 35px;
+    }
+    
+    section.branco > p {
+        font-size: 22px;
+        padding: 50px 150px;
+    }
+
+    section.preto > h2 {
+        font-size: 35px;
+    }
+    
+    section.preto > p {
+        font-size: 22px;
+        padding: 50px 150px;
+    }
+
+    footer {
+        font-size: 20px;
+    }
+}
